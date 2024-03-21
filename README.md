@@ -20,21 +20,21 @@ To ensure the correct functioning of env styles, make sure to include the `viewp
 ### Installation
 
 ```bash
-npm install unocss unocss-preset-safe-area
+npm install unocss @yeungkc/unocss-preset-safe-area
 ```
 
 ```bash
-yarn add unocss unocss-preset-safe-area
+yarn add unocss @yeungkc/unocss-preset-safe-area
 ```
 
 ```bash
-pnpm add unocss unocss-preset-safe-area
+pnpm add unocss @yeungkc/unocss-preset-safe-area
 ```
 
 ### Import
 
 ```ts
-import presetSafeArea from 'unocss-preset-safe-area'
+import presetSafeArea from '@yeungkc/unocss-preset-safe-area'
 
 export default defineConfig({
     ...
