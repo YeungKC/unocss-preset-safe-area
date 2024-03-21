@@ -1,0 +1,51 @@
+{
+  "name": "unocss-preset-safe-area",
+  "version": "0.0.1",
+  "description": "Safe area preset for UnoCSS",
+  "author": "YeungKC <unocss-preset-safe-area@YeungKC.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/YeungKC/unocss-preset-safe-area",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YeungKC/unocss-preset-safe-area"
+  },
+  "bugs": {
+    "url": "https://github.com/YeungKC/unocss-preset-safe-area/issues"
+  },
+  "keywords": [
+    "unocss",
+    "unocss-preset",
+    "safe-area",
+    "titlebar-area",
+    "keyboard-inset"
+  ],
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "unbuild",
+    "stub": "unbuild --stub",
+    "test": "vitest"
+  },
+  "packageManager": "pnpm@8.14.0+sha256.9cebf61abd83f68177b29484da72da9751390eaad46dfc3072d266bfbb1ba7bf",
+  "devDependencies": {
+    "@unocss/autocomplete": "^0.58.6",
+    "unbuild": "^2.0.0",
+    "vitest": "^1.4.0"
+  },
+  "dependencies": {
+    "@unocss/core": "^0.58.6",
+    "@unocss/preset-mini": "^0.58.6"
+  }
+}

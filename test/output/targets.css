@@ -1,0 +1,61 @@
+/* layer: default */
+.pt-keyboard{padding-top:env(keyboard-inset-top, 0);}
+.pt-keyboard-1{padding-top:env(keyboard-inset-top, 0.25rem);}
+.pt-keyboard-b{padding-top:env(keyboard-inset-bottom, 0);}
+.pt-keyboard-b-1{padding-top:env(keyboard-inset-bottom, 0.25rem);}
+.pt-safe{padding-top:env(safe-area-inset-top, 0);}
+.pt-safe-1{padding-top:env(safe-area-inset-top, 0.25rem);}
+.pt-safe-b{padding-top:env(safe-area-inset-bottom, 0);}
+.pt-safe-b-1{padding-top:env(safe-area-inset-bottom, 0.25rem);}
+.pt-titlebar-y{padding-top:env(titlebar-area-y, 0);}
+.pt-titlebar-y-1{padding-top:env(titlebar-area-y, 0.25rem);}
+.pt\+keyboard{padding-top:calc(env(keyboard-inset-top) + 0);}
+.pt\+keyboard-1{padding-top:calc(env(keyboard-inset-top) + 0.25rem);}
+.pt\+keyboard-b{padding-top:calc(env(keyboard-inset-bottom) + 0);}
+.pt\+keyboard-b-1{padding-top:calc(env(keyboard-inset-bottom) + 0.25rem);}
+.pt\+safe{padding-top:calc(env(safe-area-inset-top) + 0);}
+.pt\+safe-1{padding-top:calc(env(safe-area-inset-top) + 0.25rem);}
+.pt\+safe-b{padding-top:calc(env(safe-area-inset-bottom) + 0);}
+.pt\+safe-b-1{padding-top:calc(env(safe-area-inset-bottom) + 0.25rem);}
+.pt\+titlebar-y{padding-top:calc(env(titlebar-area-y) + 0);}
+.pt\+titlebar-y-1{padding-top:calc(env(titlebar-area-y) + 0.25rem);}
+.w-keyboard{width:env(keyboard-inset-width, 0);}
+.w-keyboard-1{width:env(keyboard-inset-width, 0.25rem);}
+.w-keyboard-t{width:env(keyboard-inset-top, 0);}
+.w-keyboard-t-1{width:env(keyboard-inset-top, 0.25rem);}
+.w-safe-r{width:env(safe-area-inset-right, 0);}
+.w-safe-r-1{width:env(safe-area-inset-right, 0.25rem);}
+.w-titlebar{width:env(titlebar-area-width, 0);}
+.w-titlebar-1{width:env(titlebar-area-width, 0.25rem);}
+.w-titlebar-x{width:env(titlebar-area-x, 0);}
+.w-titlebar-x-1{width:env(titlebar-area-x, 0.25rem);}
+.w\+keyboard{width:calc(env(keyboard-inset-width) + 0);}
+.w\+keyboard-1{width:calc(env(keyboard-inset-width) + 0.25rem);}
+.w\+keyboard-t{width:calc(env(keyboard-inset-top) + 0);}
+.w\+keyboard-t-1{width:calc(env(keyboard-inset-top) + 0.25rem);}
+.w\+safe-r{width:calc(env(safe-area-inset-right) + 0);}
+.w\+safe-r-1{width:calc(env(safe-area-inset-right) + 0.25rem);}
+.w\+titlebar{width:calc(env(titlebar-area-width) + 0);}
+.w\+titlebar-1{width:calc(env(titlebar-area-width) + 0.25rem);}
+.w\+titlebar-x{width:calc(env(titlebar-area-x) + 0);}
+.w\+titlebar-x-1{width:calc(env(titlebar-area-x) + 0.25rem);}
+.top-keyboard{top:env(keyboard-inset-top, 0);}
+.top-keyboard-1{top:env(keyboard-inset-top, 0.25rem);}
+.top-keyboard-b{top:env(keyboard-inset-bottom, 0);}
+.top-keyboard-b-1{top:env(keyboard-inset-bottom, 0.25rem);}
+.top-safe{top:env(safe-area-inset-top, 0);}
+.top-safe-1{top:env(safe-area-inset-top, 0.25rem);}
+.top-safe-b{top:env(safe-area-inset-bottom, 0);}
+.top-safe-b-1{top:env(safe-area-inset-bottom, 0.25rem);}
+.top-titlebar-x{top:env(titlebar-area-x, 0);}
+.top-titlebar-x-1{top:env(titlebar-area-x, 0.25rem);}
+.top\+keyboard{top:calc(env(keyboard-inset-top) + 0);}
+.top\+keyboard-1{top:calc(env(keyboard-inset-top) + 0.25rem);}
+.top\+keyboard-b{top:calc(env(keyboard-inset-bottom) + 0);}
+.top\+keyboard-b-1{top:calc(env(keyboard-inset-bottom) + 0.25rem);}
+.top\+safe{top:calc(env(safe-area-inset-top) + 0);}
+.top\+safe-1{top:calc(env(safe-area-inset-top) + 0.25rem);}
+.top\+safe-b{top:calc(env(safe-area-inset-bottom) + 0);}
+.top\+safe-b-1{top:calc(env(safe-area-inset-bottom) + 0.25rem);}
+.top\+titlebar-x{top:calc(env(titlebar-area-x) + 0);}
+.top\+titlebar-x-1{top:calc(env(titlebar-area-x) + 0.25rem);}
