@@ -1,0 +1,24 @@
+name: Github package publish
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: lts/*
+      - uses: pnpm/action-setup@v3
+        with:
+          version: 8
+      - run: pnpm i
+      - run: pnpm build
+      - uses: JS-DevTools/npm-publish@v3
+        with:
+          token: ${{ secrets.GITHUG_PACKAGE_TOKEN }}
+          registry: "https://npm.pkg.github.com"
