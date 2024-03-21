@@ -1,8 +1,12 @@
 {
-  "name": "unocss-preset-safe-area",
+  "name": "@yeungkc/unocss-preset-safe-area",
   "version": "0.0.2",
   "description": "Safe area preset for UnoCSS",
-  "author": "YeungKC <unocss-preset-safe-area@YeungKC.com>",
+  "author": {
+    "name": "YeungKC",
+    "email": "unocss-preset-safe-area@YeungKC.com",
+    "url": "https://YeungKC.com"
+  },
   "license": "MIT",
   "homepage": "https://github.com/YeungKC/unocss-preset-safe-area",
   "repository": {
