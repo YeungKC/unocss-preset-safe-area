@@ -7,7 +7,7 @@
   "homepage": "https://github.com/YeungKC/unocss-preset-safe-area",
   "repository": {
     "type": "git",
-    "url": "https://github.com/YeungKC/unocss-preset-safe-area"
+    "url": "https://github.com/YeungKC/unocss-preset-safe-area.git"
   },
   "bugs": {
     "url": "https://github.com/YeungKC/unocss-preset-safe-area/issues"
