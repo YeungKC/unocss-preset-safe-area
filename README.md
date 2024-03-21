@@ -49,8 +49,9 @@ This preset supports `safe-area-inset-*`, `titlebar-area-*` and `keyboard-inset-
 
 Basic usage:
 
-`pt-safe-1` will generate `padding-top:env(safe-area-inset-top, 0.25rem);`, for addition, use `pt+safe-1` to generate `padding-top:calc(env(safe-area-inset-top) + 0.25rem);`.
-To specify env properties, use `w-titlebar-x-1`:`width:env(titlebar-area-x, 0.25rem);`.
+- `pt-safe-1` : `padding-top:env(safe-area-inset-top, 0.25rem);`
+- for addition, use `+`, example: `pt+safe-1` : `padding-top:calc(env(safe-area-inset-top) + 0.25rem);`.
+- To specify env properties, like `titlebar-x`, `keyboard-t`, use `w-titlebar-x-1`:`width:env(titlebar-area-x, 0.25rem);`.
 
 Currently supports `p`, `m`, `w`, `h`, `max-w`, `min-w`, `max-h`, `min-h`, `left`, `top`, `right`, `bottom`, where:
 
