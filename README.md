@@ -6,8 +6,8 @@ Safe Area for [UnoCSS](https://github.com/unocss/unocss).
 
 ### Setup
 
-To ensure proper functioning of the safe area styles, Add the viewport-fit=cover meta tag to the viewport settings in your HTML document.
-like this:
+<!-- 为了确保 -->
+To ensure the correct functioning of env styles, make sure to include the `viewport-fit=cover` in viewport `meta` tag:
 
 ```diff
 <meta
