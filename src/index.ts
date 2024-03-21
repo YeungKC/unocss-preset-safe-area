@@ -104,15 +104,14 @@ export const presetSafeArea = definePreset(() => {
       ],
       [
         /^(?:position-|pos-)?(top|left|right|bottom)([\+|-])(?:(safe)(?:-([rltb]))?|(titlebar)(?:(?:-([xy])|(?:-([wh]))))|(keyboard)(?:(?:-([rltb]))?|(?:-([wh]))))(?:-(-?.+))?$/,
-        ([, propertyName, mode, safeProperty0, safeValue0, safeProperty1, safeValue1, safeValue2, safeProperty2, safeValue3, safeValue4, value], ctx) => {
-          return safeAraMatcher({
+        ([, propertyName, mode, safeProperty0, safeValue0, safeProperty1, safeValue1, safeValue2, safeProperty2, safeValue3, safeValue4, value], ctx) =>
+          safeAraMatcher({
             propertyName,
             safeAreaPrefix: safeAreaMapping[safeProperty0 || safeProperty1 || safeProperty2],
             safeAreaName: valueMapping[safeValue0 || safeValue1 || safeValue2 || safeValue3 || safeValue4 || propertyName],
             mode: mode === "+" ? "add" : "fallback",
             value: handleInsetValue(value, ctx),
-          })
-        },
+          }),
         {
           autocomplete: [
             "(top|left|right|bottom)(+|-)(safe|keyboard)-<num>",

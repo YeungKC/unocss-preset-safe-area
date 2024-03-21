@@ -6,7 +6,6 @@ Safe Area for [UnoCSS](https://github.com/unocss/unocss).
 
 ### Setup
 
-<!-- 为了确保 -->
 To ensure the correct functioning of env styles, make sure to include the `viewport-fit=cover` in viewport `meta` tag:
 
 ```diff
