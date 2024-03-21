@@ -1,9 +1,6 @@
 name: Release
 
-on:
-  push:
-    tags:
-      - "v*.*.*"
+on: push
 
 jobs:
   build:
@@ -13,3 +10,4 @@ jobs:
         uses: actions/checkout@v4
       - name: Release
         uses: softprops/action-gh-release@v2
+        if: startsWith(github.ref, 'refs/tags/')
