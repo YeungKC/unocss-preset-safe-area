@@ -80,7 +80,7 @@ For all usage examples, it's all [Autocomplete](https://unocss.dev/tools/autocom
 (m|p)(r|l|t|b)(+|-)keyboard-(r|l|t|b|w|h)-<num>
 ```
 
-If you need more clarification, you can refer to this [CSS example](repo/blob/master/test/output/targets.css).
+If you need more clarification, you can refer to this [CSS example](test/output/targets.css).
 
 ## License
 
