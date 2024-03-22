@@ -1,6 +1,6 @@
 # unocss-preset-safe-area
 
-Safe Area for [UnoCSS](https://github.com/unocss/unocss).
+Use safe area with [UnoCSS](https://github.com/unocss/unocss).
 
 ## Usage
 
@@ -56,7 +56,7 @@ Currently supports `p`, `m`, `w`, `h`, `max-w`, `min-w`, `max-h`, `min-h`, `left
 
 - `safe` represents `safe-area-inset-`
 - `titlebar` represents `titlebar-area-`
-- `keyboard` represents `keyboard-inset-`。
+- `keyboard` represents `keyboard-inset-`
 
 For all usage examples, it's all [Autocomplete](https://unocss.dev/tools/autocomplete):
 
