@@ -46,7 +46,7 @@
   "devDependencies": {
     "@unocss/autocomplete": "^0.61.3",
     "unbuild": "^2.0.0",
-    "vitest": "^1.6.0"
+    "vitest": "^2.0.1"
   },
   "dependencies": {
     "@unocss/core": "^0.61.3",
