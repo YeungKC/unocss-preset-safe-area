@@ -1,4 +1,4 @@
-import { CSSEntries, Preset, RuleContext } from "@unocss/core"
+import { CSSEntries, RuleContext, definePreset } from "@unocss/core"
 import { directionMap, h } from "@unocss/preset-mini/utils"
 import { Theme } from "@unocss/preset-mini"
 
@@ -55,7 +55,7 @@ const valueMapping: Record<string, string> = {
   bottom: "-bottom",
 }
 
-export const presetSafeArea = (): Preset => {
+export const presetSafeArea = definePreset(() => {
   return {
     name: "unocss-preset-safe-area",
     rules: [
@@ -123,6 +123,6 @@ export const presetSafeArea = (): Preset => {
       ],
     ],
   }
-}
+})
 
 export default presetSafeArea
