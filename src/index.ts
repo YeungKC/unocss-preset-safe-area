@@ -55,7 +55,7 @@ const valueMapping: Record<string, string> = {
   bottom: "-bottom",
 }
 
-export const presetSafeArea = definePreset(() => {
+export const presetSafeArea = definePreset<undefined, Theme>(() => {
   return {
     name: "unocss-preset-safe-area",
     rules: [
