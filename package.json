@@ -1,6 +1,6 @@
 {
   "name": "@yeungkc/unocss-preset-safe-area",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Safe area preset for UnoCSS",
   "author": {
     "name": "YeungKC",
@@ -44,12 +44,12 @@
   },
   "packageManager": "pnpm@8.14.0+sha256.9cebf61abd83f68177b29484da72da9751390eaad46dfc3072d266bfbb1ba7bf",
   "devDependencies": {
-    "@unocss/autocomplete": "^0.61.3",
+    "@unocss/autocomplete": "^0.62.3",
     "unbuild": "^2.0.0",
-    "vitest": "^2.0.1"
+    "vitest": "^2.0.5"
   },
   "dependencies": {
-    "@unocss/core": "^0.61.3",
-    "@unocss/preset-mini": "^0.61.3"
+    "@unocss/core": "^0.62.3",
+    "@unocss/preset-mini": "^0.62.3"
   }
 }
