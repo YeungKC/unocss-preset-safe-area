@@ -1,8 +1,11 @@
 import { CSSEntries, RuleContext, definePreset } from "@unocss/core"
 import { directionMap, h } from "@unocss/preset-mini/utils"
-import { Theme } from "@unocss/preset-mini"
 
-function handleInsetValue(v: string, { theme }: RuleContext<Theme>): string | number {
+interface ThemeWithSpacing {
+  spacing?: Record<string, string>
+}
+
+function handleInsetValue(v: string, { theme }: RuleContext<ThemeWithSpacing>): string | number {
   if (!v) return 0
   return theme.spacing?.[v] ?? h.bracket.cssvar.global.auto.fraction.rem(v) ?? 0
 }
@@ -55,7 +58,7 @@ const valueMapping: Record<string, string> = {
   bottom: "-bottom",
 }
 
-export const presetSafeArea = definePreset<undefined, Theme>(() => ({
+export const presetSafeArea = definePreset(() => ({
   name: "unocss-preset-safe-area",
   rules: [
     [
