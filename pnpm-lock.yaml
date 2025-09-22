@@ -6,10 +6,10 @@ settings:
 
 dependencies:
   '@unocss/core':
-    specifier: ^0.62.3
+    specifier: ^0.62.0
     version: 0.62.3
   '@unocss/preset-mini':
-    specifier: ^0.62.3
+    specifier: ^0.62.0
     version: 0.62.3
 
 devDependencies:

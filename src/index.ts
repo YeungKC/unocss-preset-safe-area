@@ -1,6 +1,6 @@
 import { CSSEntries, RuleContext, definePreset } from "@unocss/core"
 import { directionMap, h } from "@unocss/preset-mini/utils"
-import { Theme } from "@unocss/preset-mini"
+import type { Theme } from "@unocss/preset-mini"
 
 function handleInsetValue(v: string, { theme }: RuleContext<Theme>): string | number {
   if (!v) return 0

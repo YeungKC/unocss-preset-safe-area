@@ -1,6 +1,6 @@
 {
   "name": "@yeungkc/unocss-preset-safe-area",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "Safe area preset for UnoCSS",
   "author": {
     "name": "YeungKC",
@@ -48,8 +48,9 @@
     "unbuild": "^2.0.0",
     "vitest": "^2.0.5"
   },
-  "dependencies": {
-    "@unocss/core": "^0.62.3",
-    "@unocss/preset-mini": "^0.62.3"
-  }
+  "peerDependencies": {
+    "@unocss/core": "^0.62.0",
+    "@unocss/preset-mini": "^0.62.0"
+  },
+  "dependencies": {}
 }
